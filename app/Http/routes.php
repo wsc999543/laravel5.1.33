@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('test/{id}', function ($id) {
-    return "hello world".$id;
+    return "hello world chenzy".$id;
 });
 Route::match(['post', 'get'], 'admin/test', function () {
     return "admin/test";
